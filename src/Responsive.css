@@ -1,4 +1,57 @@
-@media (width <= 500px){
+@media (width <= 576px){
+
+  #home {
+    background: #272D69;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+  .main-btn {
+    width: 8.0625rem;
+    font-size: 0.5rem;
+  }
+  
+  .about-section .text-sec {
+    padding-left: 1rem;
+  }
+
+  .sec-head{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .second-para {
+    font-size: 0.685rem;
+  }
+
+  .second-page-ul {
+    margin-top: 10px;
+    font-size: 0.75rem;
+  }
+  
+  .second-sec-page-ul {
+    font-size: 0.75rem;
+  }
+  
+  /* .second-sec-page-ul .second-sec-page-li {
+    padding: 3px;
+  } */
+
+  .download-btn {
+    width: 7rem;
+  }
+  
+  .download-app-btn {
+    width: 9rem;
+  }
+
   .news-iphone {
     width: 12rem;
     margin-top: 4rem;
@@ -16,19 +69,19 @@
   }
 
   .third-heading {
-    margin-top: 3.125rem;
-    font-size: 2.125rem;
-    line-height: 2rem;
+    margin-top: 0.5rem;
+    font-size: 1.75rem;
+    line-height: 1.5rem;
   }
   
   .third-para {
-    font-size: 1rem;
-    line-height: 1.35rem;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
   }
 
   .iphone-image {
     margin: 70px 20px;
-    width: 10.81388rem;
+    width: 9.81388rem;
   }
 
   .designed .designed-in {

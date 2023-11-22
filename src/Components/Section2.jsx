@@ -11,7 +11,7 @@ export default function Section2() {
                 <img className="rectangle" src="Images/Rectangle.jpg" alt='' />
               </div>
               <div className="col-lg-6 col-12 text-sec">
-                <h2>A new way to <br /> express yourself</h2>
+                <h2 className="sec-head" >A new way to <br /> express yourself</h2>
                 <ul className="second-page-ul">
                   <li className="second-page-li">Search & Meet</li>
                 </ul>

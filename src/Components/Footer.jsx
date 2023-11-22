@@ -31,9 +31,9 @@ export default function Footer() {
         </div>
         <div className="col-lg-6 col-md-6 col-6">
           <ul className="links">
-            {/* <li className="link"><i className="fa-brands fa-instagram" style="color: #8f8f97;"></i></li>
-            <li className="link"><i className="fa-brands fa-twitter" style="color: #8f8f97;"></i></li>
-            <li className="link"><i className="fa-brands fa-facebook" style="color: #8f8f97;"></i></li> */}
+            {/* <li className="link"><i className="fa-brands fa-instagram"></i></li>
+            <li className="link"><i className="fa-brands fa-twitter"></i></li>
+            <li className="link"><i className="fa-brands fa-facebook"></i></li> */}
             <li className="link">Download</li>
             <li className="link">Privacy</li>
             <li className="link">Terms of use</li>
