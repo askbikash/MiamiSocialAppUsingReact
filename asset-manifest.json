@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MiamiSocialAppUsingReact/static/css/main.7509b124.css",
+    "main.js": "/MiamiSocialAppUsingReact/static/js/main.9f3e9d8e.js",
+    "static/js/787.22aa0b5e.chunk.js": "/MiamiSocialAppUsingReact/static/js/787.22aa0b5e.chunk.js",
+    "index.html": "/MiamiSocialAppUsingReact/index.html",
+    "main.7509b124.css.map": "/MiamiSocialAppUsingReact/static/css/main.7509b124.css.map",
+    "main.9f3e9d8e.js.map": "/MiamiSocialAppUsingReact/static/js/main.9f3e9d8e.js.map",
+    "787.22aa0b5e.chunk.js.map": "/MiamiSocialAppUsingReact/static/js/787.22aa0b5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7509b124.css",
+    "static/js/main.9f3e9d8e.js"
+  ]
+}
