@@ -1,38 +1,534 @@
-.App {
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #272d69;
+  --secondary-color: #d4d4d4;
+  --third-color: #FFF2EA;
+  --text-color: #FFE2D0;
+  --primary-font: 'rubik', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'rubik';
+  font-size: 100%;
+  font-weight: 400;
+}
+
+/* .BgColour {
+  background-image: linear-gradient(to bottom, #272d69, #272e6e, #272e74, #272f79, #272f7f, #283185, #2a328a, #2b3490, #2e3797, #313a9e, #343ea5, #3741ac) !important;
+  height: 6rem;
+  transition: all 1s;
+} */
+
+.navbar {
+  background-image: linear-gradient(to right, #272d69, #343a7a, #41478b, #4e549c, #5b62ae, #666db8, #7077c1, #7b82cb, #858cce, #8f95d2, #9a9fd5, #a4a9d8) !important;
+  height: 6rem;
+  transition: all 1s;
+}
+
+.main-btn {
+  display: inline-block;
+  width: 11.0625rem;
+  height: 3.125rem;
+  border-radius: 5rem;
+  background-color: #FFf;
+  font-size: 0.9375rem !important;
+  font-weight: 700 !important;
+  border: none !important;
+}
+
+.main-btn:hover {
+  background-color: #272d69;
+  color: #FFf;
+}
+
+.nav-item .nav-link {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-right: 2.2rem;
+}
+
+
+.bg-body-tertiary {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 99;
+  top: 0;
+  background-color: none !important;
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+
+.logo {
+  width: 6rem;
+}
+
+h1 {
+  color: #FFf;
+  font-size: 3.5rem;
+  letter-spacing: 0.15rem;
+}
+
+p {
+  color: #fff;
+  margin-top: 1.2rem;
+  font-size: 1.25rem;
+}
+
+
+.download-btn {
+  width: 8rem;
+}
+
+.download-app-btn {
+  width: 10rem;
+}
+
+#home {
+  background: linear-gradient(to right, #272D69 0%, #272D69 50%, #D4D4D4 50%, #D4D4D4 100%);
+  padding: 100px 0;
+}
+
+header+section {
+  margin-top: 90px;
+}
+
+/* section 2 starts here */
+
+#second {
+  background: #FFF2EA;
+  width: 100%;
+  padding: 100px 0;
+
+}
+
+.rectangle {
+  width: 100%;
+}
+
+.about-section .text-sec {
+  padding-left: 6rem;
+}
+
+.second-para {
+  color: var(--primary-color);
+  font-size: 1.125rem;
+}
+
+.second-page-ul {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: -18px;
+  font-weight: 800;
+  color: #272D69;
+  font-size: 1.125rem;
+}
+
+.second-sec-page-ul {
+  display: inline-block;
+  font-weight: 800;
+  color: #474850;
+  font-size: 1.125rem;
+}
+
+.second-sec-page-ul .second-sec-page-li {
+  all: unset;
+  padding: 5px;
+}
+
+/* .sec-btn {
+  display: inline-block;
+  border-radius: 5rem;
+  padding: 14px 22px !important;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+} */
+
+h2 {
+  color: var(--primary-color);
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+}
+
+/* section 3 starts here */
+
+
+
+.third-heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  font-size: 3.125rem;
+  font-weight: 500;
+  line-height: 3.75rem;
+}
+
+.third-para {
+  position: relative;
+  align-items: center;
+  color: #272D69;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 0.005rem;
+}
+
+.third-button {
+  position: relative;
+  margin-top: 0.750rem;
+}
+
+#third {
+  margin: 0;
+  background: linear-gradient(to right, #d8d8d8 0%, #d8d8d8 50%, #ECEDF5 50%, #ECEDF5 100%);
+  position: relative;
+}
+
+#third::before {
+  content: '';
+  position: absolute;
+  background-color: #FF9A78;
+  width: 50%;
+  height: 55%;
+  left: 0;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone-image {
+  margin: 70px 90px;
+  width: 16.81388rem;
+}
+
+
+
+/* fourth section starts here */
+
+#fourth {
+  background: #FFF2EA;
+  width: 100%;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.heading-fourth {
+  text-align: center;
+  font-size: 3.125rem;
+}
+
+.fourth-para {
+  text-align: center;
+  color: var(--primary-color);
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.fourth-card {
+  display: inline-block;
+  height: 320px;
+}
+
+.card {
+  border: none;
+}
+
+.card-group {
+  gap: 20px;
+}
+
+.card-img-top {
+  width: 90px;
+  height: 90px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-fourth-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #272D69;
+}
+
+.card-text {
+  font-size: 1rem;
+  overflow: hidden;
+  color: #272D69;
+}
+
+.card-color-pink {
+  background: #FFE3E3;
+}
+
+.card-color-blue {
+  background: #ECEDF5;
+}
+
+.fourth-btn {
+  background-color: #272D69 !important;
+  color: #fff !important;
+}
+
+
+/* 
+fifth section starts here */
+
+.fifth {
+  width: 100%;
+  background: #FEE5E5;
+  padding: 120px 0;
+}
+
+.heading-fifth {
+  text-align: center;
+  color: #272D69;
+  font-size: 3.125rem;
+  font-weight: 600;
+}
+
+.image-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 1rem;
+  margin-top: 1.35rem;
+  margin-bottom: 5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.fifth-para {
+  color: #272D69;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center {
+  text-align: center;
+  margin-top: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center .fifth-page-img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.name {
+  text-align: center;
+  font-size: 14px;
+  margin-top: -10px;
+  font-weight: 700;
+  color: #272D69;
+}
+
+.title {
+  text-align: center;
+  font-size: 12px;
+  margin-top: -18px;
+  margin-bottom: 0;
+  color: #272D69;
+}
+
+.scroll {
+  text-align: center;
+  font-size: 5px;
+}
+
+.scroll-oval {
+  margin: 20px;
+}
+
+.section-fifth {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+
+
+/* carousel css start here  */
+
+
+.container-fifth {
+  width: 80%;
+  margin: -50px auto;
+}
+
+.carousel-fifth {
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-fifth {
+  height: 100%;
+  display: flex;
+  width: 400%;
+  transition: all 0.6s;
+}
+
+.slider-fifth .section-fifth {
+  flex-basis: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.controls .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.controls .arrow .material-icons {
+  font-size: 60px;
+  color: #FEE5E5;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.controls ul {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.controls ul li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  margin: 20px;
+  background: #adabab;
+  cursor: pointer;
+}
+
+.controls ul li.selected {
+  background: #272D69;
+}
+
+
+/* last section or newsletter */
+
+.newsletter {
+  background: var(--primary-color);
+}
+
+.news-heading {
+  color: #fff;
+  margin-top: 6.725rem;
+  font-size: 2.5rem;
+}
+
+.news-para {
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.news-iphone {
+  width: 14rem;
+  margin-top: 4rem;
+  margin-left: 15rem;
+}
+
+
+
+/* footer starts here */
+
+
+.footer {
+  position: relative;
+  margin-top: -4.8rem;
+  background: #fff;
+  width: 100%;
+  z-index: 3;
+}
+
+.designed {
+  padding: 1.3rem;
+  margin-top: 1.6rem;
+}
+
+.links {
+  margin-top: 1rem;
+  padding: 1.3rem;
+  color: #4B4B4B;
+}
+
+.designed .designed-in {
+  list-style: none;
+  text-decoration: none;
+  color: #4B4B4B;
+  font-size: 13px;
+}
+
+.fa-brands {
+  font-size: 20px;
+}
+
+.links .link {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 2.1rem;
+  font-size: 13px;
+  color: #4B4B4B;
+}
+
+.link {
+  color: #4B4B4B;
 }
