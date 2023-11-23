@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MiamiSocialAppUsingReact/static/css/main.0f75fee6.css",
-    "main.js": "/MiamiSocialAppUsingReact/static/js/main.a090d7fe.js",
+    "main.css": "/MiamiSocialAppUsingReact/static/css/main.edd80d9e.css",
+    "main.js": "/MiamiSocialAppUsingReact/static/js/main.72501170.js",
     "static/js/787.22aa0b5e.chunk.js": "/MiamiSocialAppUsingReact/static/js/787.22aa0b5e.chunk.js",
     "index.html": "/MiamiSocialAppUsingReact/index.html",
-    "main.0f75fee6.css.map": "/MiamiSocialAppUsingReact/static/css/main.0f75fee6.css.map",
-    "main.a090d7fe.js.map": "/MiamiSocialAppUsingReact/static/js/main.a090d7fe.js.map",
+    "main.edd80d9e.css.map": "/MiamiSocialAppUsingReact/static/css/main.edd80d9e.css.map",
+    "main.72501170.js.map": "/MiamiSocialAppUsingReact/static/js/main.72501170.js.map",
     "787.22aa0b5e.chunk.js.map": "/MiamiSocialAppUsingReact/static/js/787.22aa0b5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f75fee6.css",
-    "static/js/main.a090d7fe.js"
+    "static/css/main.edd80d9e.css",
+    "static/js/main.72501170.js"
   ]
 }
