@@ -50,7 +50,7 @@ body {
   height: 3.125rem;
   border-radius: 5rem;
   background-color: #FFf;
-  font-size: 0.9375rem !important;
+  font-size: 0.9375rem;
   font-weight: 700 !important;
   border: none !important;
 }
@@ -340,7 +340,7 @@ fifth section starts here */
 .quote {
   font-size: 1rem;
   margin-top: 1.35rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -404,7 +404,7 @@ fifth section starts here */
 }
 
 .carousel-fifth {
-  height: 350px;
+  height: 500px;
   position: relative;
   overflow: hidden;
 }
@@ -498,7 +498,7 @@ fifth section starts here */
 
 .footer {
   position: relative;
-  margin-top: -4.8rem;
+  margin-top: -3.8rem;
   background: #fff;
   width: 100%;
   z-index: 3;
